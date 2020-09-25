@@ -1,3 +1,24 @@
+body {
+    background-color: black;
+}
+
 .login {
-    
+    display: grid;
+    place-items: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.login > img {
+    width: 100%;
+}
+
+.login > a {
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #1fd662;
+    font-weight: 800;
+    font-family: Roboto;
+    color: bisque;
+    text-decoration: none;
 }
