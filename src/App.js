@@ -36,7 +36,7 @@ function App() {
     {/* <h1>🚀 MusixXXxxXx 🚀</h1> */}
     {/* Very nice logo */}
     {/* Login with a button */}
-    { token ? (<Player />) : (<Login />) }
+    { token ? <Player /> : <Login /> }
     </div>
   );
 }
