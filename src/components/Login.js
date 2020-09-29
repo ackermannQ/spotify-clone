@@ -6,7 +6,7 @@ function Login() {
   return (
     <div className="login">
         <img
-        src="https://producteurpro.fr/wp-content/uploads/2019/09/Spotify-logo.jpg"
+        src={ require("./../assets/logo.png") }
         alt="MusixXxxX" />
         <a href={ loginUrl }>Login with 🚀 MusixXXxxXx 🚀</a>
         {/* Login with a button */}
