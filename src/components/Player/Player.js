@@ -10,9 +10,7 @@ class Player extends Component {
       <div className="player">
         <div className= "player__body">
           <Sidebar />
-          {/* SideBar */}
           <Body />
-          {/* Body */}
         </div>
         <Footer />
       </div>
