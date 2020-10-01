@@ -3,7 +3,7 @@ import "./Sidebar.css";
 import SidebarOption from "./SidebarOptions";
 import HomeIcon from '@material-ui/icons/Home';
 import SearchIcon from '@material-ui/icons/Search';
-import LibraryMusicIcon from '@material-ui/icons/LibraryMusicIcon';
+import LibraryMusicIcon from '@material-ui/icons/LibraryMusic';
 
 function Sidebar() {
   return (
@@ -16,6 +16,9 @@ function Sidebar() {
       <SidebarOption title="Home" Icon={ HomeIcon }/>
       <SidebarOption title="Search" Icon={ SearchIcon }/>
       <SidebarOption title="Your favorites !" Icon={ LibraryMusicIcon }/>
+      <br />
+      <strong className="sidebar__title">PLAYLISTS</strong>
+      <hr />
     </div>
   );
 }
