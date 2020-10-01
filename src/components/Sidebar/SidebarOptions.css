@@ -1,4 +1,5 @@
 .sidebarOptions {
+    display: flex;
     color: antiquewhite;
     height: 40px;
     cursor: pointer;
