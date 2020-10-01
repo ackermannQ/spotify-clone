@@ -4,7 +4,11 @@ import "./Sidebar.css";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <h1>I'm da sidebaaar</h1>
+      <div className="sidebar__logo">
+          <img
+          src={ require("./../../assets/logo.png") }
+          alt="MusixXxxX" />
+      </div>
     </div>
   );
 }
