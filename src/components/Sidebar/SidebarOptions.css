@@ -1,0 +1,11 @@
+.sidebarOptions {
+    color: antiquewhite;
+    height: 40px;
+    cursor: pointer;
+    transition: 120ms color ease-in;
+}
+
+.sidebarOptions:hover {
+    color: red;
+
+}
