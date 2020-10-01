@@ -1,4 +1,4 @@
-import Login from "./components/Login";
+import Login from "./components/Login/Login";
 
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
