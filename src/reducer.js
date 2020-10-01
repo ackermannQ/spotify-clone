@@ -18,6 +18,11 @@ export const initialState = {
           ...state,
           token: action.token
         };
+      case 'SET_PLAYLISTS':
+        return {
+          ...state,
+          playlists: action.playlists
+        };
       default:
         return state;
     };
